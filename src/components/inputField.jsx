@@ -1,5 +1,7 @@
+import "../index.css";
+
 const InputField = () => {
-  return <input type="text" placeholder="Enter any relevant brands..." />;
+  return <input class="input-field" type="text" placeholder="Enter any relevant brands..." />;
 };
 
 export default InputField;
